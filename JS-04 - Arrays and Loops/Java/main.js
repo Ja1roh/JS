@@ -1,8 +1,12 @@
-
-console.log("***************Ejercicio 1***************");
-
 let nombres = ["Sofía", "David", "Juan"];
-console.log(nombres);
+console.log("***************Ejercicio 1***************");
 //Parte 1
-nombres = []
-
+console.log(nombres);
+//parte 2
+nombres.push("Sara");
+nombres.push("Agustín");
+nombres.shift();
+console.log(nombres);
+//parte 3
+nombres.splice(1, 0, "Renata");
+console.log(nombres);
