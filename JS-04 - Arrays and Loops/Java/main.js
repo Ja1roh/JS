@@ -30,3 +30,44 @@ function triangulo(nPisos){
         console.log(piso);
     }
 }
+console.log("***************Ejercicio 3***************");
+//parte 1
+let nCont = 10
+while (nCont>=0) {
+    console.log(nCont);
+    nCont = nCont - 0.5;
+}
+//parte 2
+console.log("---parte 2: impares---");
+
+let impares =100;
+
+for (let cont = 0; cont <= impares; cont++) {
+  if (cont % 2 !== 0) {
+    console.log(cont);
+  }
+
+}
+console.log("---parte 3: cuadrados---");
+let minimo = 1
+function cajitas(nCajitas){
+    while ( minimo <= nCajitas) {
+        console.log("[" + minimo + "]");
+        minimo ++;
+    }
+}
+cajitas(10);
+
+console.log("---parte 4: sumas---");
+let cuenta = 1
+let suma=0
+function num(numeroSuma){
+    while (cuenta <= numeroSuma) {
+        suma= suma + cuenta;
+        cuenta ++;
+    }console.log(suma);
+}
+num(5);
+num(10);
+
+
